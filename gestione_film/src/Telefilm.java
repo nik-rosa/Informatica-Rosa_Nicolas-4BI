@@ -2,7 +2,7 @@ public class Telefilm {
     private String nome_telefilm;
     private String genere_film;
     private boolean in_corso;
-    private int[] insieme_stagioni;
+    private int[] serie;
 
     public Telefilm() {}
 
@@ -10,7 +10,7 @@ public class Telefilm {
         this.nome_telefilm = nome_telefilm;
         this.genere_film = genere_film;
         this.in_corso = in_corso;
-        this.numero_stagioni = numero_stagioni;
+        this.numero_stagioni = getNumero_stagioni;
     }
 
     public int media_episodi(int [] insieme_stagioni) {
